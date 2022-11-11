@@ -27,7 +27,7 @@ Pretrain models for three tasks can be found here:
 | Depth estimation |nyudv2| [VNL](https://github.com/YvanYin/VNL_Monocular_Depth_Prediction.git)|baseline|rel: 13.5 |-|
 | Depth estimation | nyudv2|[VNL](https://github.com/YvanYin/VNL_Monocular_Depth_Prediction.git)|+ our distillation|rel: 13.0 |[link](https://cloudstor.aarnet.edu.au/plus/s/IXk0i0cJaibgJAr)|
 
-Note: Other checkpoints can be obtained by email: yifan.liu04@adelaide.edu.au if needed.
+Note: Other checkpoints can be obtained by email from original author: yifan.liu04@adelaide.edu.au if needed.
 
 
 ## Requirement
