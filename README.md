@@ -15,18 +15,7 @@ This repository is organized as:
 * [network](/network/) This directory contains a model zoo for network models.
 * [utils](/utils/) This directory contains api for calculating the distillation loss.
 
-## Performance on the Cityscape dataset
-We apply the distillation method to training the [PSPNet](https://arxiv.org/abs/1612.01105). We used the dataset splits (train/val/test) provided [here](https://github.com/speedinghzl/pytorch-segmentation-toolbox). We trained the models at a resolution of 512x512.
-Pi: Pixel-wise distillation PA: Pair-wise distillation HO: holistic distillation
-
-| Model | Average |
-| -- | -- |
-| baseline | 69.10 |
-| +Pi | 70.51 |
-| +Pi+Pa | 71.78 |
-| +Pi+Pa+Ho | 74.08 |
-
-## Pre-trained model and Performance on other tasks
+## Pre-trained model and Performance on various tasks
 Pretrain models for three tasks can be found here:
 
 | Task |Dataset| Network |Method | Evaluation Metric|Link|
