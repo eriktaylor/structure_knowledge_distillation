@@ -1,21 +1,10 @@
 #  Structured Knowledge Distillation for Dense Prediction
 
-This repository contains the source code of our paper [Structured Knowledge Distillation for Dense Prediction](https://arxiv.org/pdf/1903.04197.pdf).
-It is an extension of our paper [Structured Knowledge Distillation for Semantic Segmentation](https://www.zpascal.net/cvpr2019/Liu_Structured_Knowledge_Distillation_for_Semantic_Segmentation_CVPR_2019_paper.pdf) (accepted for publication in [CVPR'19](http://cvpr2019.thecvf.com/), oral).
-
-We have update a more stable version of training the GAN part in the master branch.
-
-If you want to transfer our pair-wise distilaltion and pixel-wise distillation in your own work or you want to use our trained models in the conference version, you can checkout to the old branck 'cvpr_19'.
+This repository contains the source code of [Structured Knowledge Distillation for Dense Prediction](https://arxiv.org/pdf/1903.04197.pdf).
 
 ## Sample results
 
-Demo video for the student net (ESPNet) on Camvid
-
-After distillation with mIoU 65.1:
-![image](https://github.com/irfanICMLL/structure_knowledge_distillation/blob/master/demo/output_sd_esp.gif)
-
-Before distillation with mIoU 57.8:
-![image]( https://github.com/irfanICMLL/structure_knowledge_distillation/blob/master/demo/output_base_esp.gif)
+Coming soon.
  
 ## Structure of this repository
 This repository is organized as:
