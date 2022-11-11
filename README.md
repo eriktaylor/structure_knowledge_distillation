@@ -27,7 +27,7 @@ Pretrain models for three tasks can be found here:
 | Depth estimation |nyudv2| [VNL](https://github.com/YvanYin/VNL_Monocular_Depth_Prediction.git)|baseline|rel: 13.5 |-|
 | Depth estimation | nyudv2|[VNL](https://github.com/YvanYin/VNL_Monocular_Depth_Prediction.git)|+ our distillation|rel: 13.0 |[link](https://cloudstor.aarnet.edu.au/plus/s/IXk0i0cJaibgJAr)|
 
-Note: Other chcekpoints can be obtained by email: yifan.liu04@adelaide.edu.au if needed.
+Note: Other checkpoints can be obtained by email: yifan.liu04@adelaide.edu.au if needed.
 
 
 ## Requirement
@@ -58,6 +58,8 @@ python build.py
 The `build.sh` script assumes that the `nvcc` compiler is available in the current system search path.
 The CUDA kernels are compiled for `sm_50`, `sm_52` and `sm_61` by default.
 To change this (_e.g._ if you are using a Kepler GPU), please edit the `CUDA_GENCODE` variable in `build.sh`.
+
+More on this here: https://github.com/speedinghzl/pytorch-segmentation-toolbox
 
 ## Quick start to test the model
 1. download the [Cityscape dataset](https://www.cityscapes-dataset.com/)
