@@ -2,7 +2,7 @@
 
 This repository contains the source code of [Structured Knowledge Distillation for Dense Prediction](https://arxiv.org/pdf/1903.04197.pdf).
 
-Re-writing this as a demonstration of the monocular depth estimation project.
+Re-writing this as a demonstration of the other tasks outined in the paper.
 
 ## Sample results
 
