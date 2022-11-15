@@ -12,7 +12,7 @@ Coming soon.
 This repository is organized as:
 * [libs](/libs/) This directory contains the inplaceABNSync modes.
 * [dataset](/dataset/) This directory contains the dataloader for different datasets.
-* [network](/network/) This directory contains a model zoo for network models.
+* [networks](/networks/) This directory contains a model zoo for network models.
 * [utils](/utils/) This directory contains api for calculating the distillation loss.
 
 ## Pre-trained model and Performance on various tasks
